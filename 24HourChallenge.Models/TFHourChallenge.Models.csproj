@@ -66,21 +66,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommentCreate.cs" />
-    <Compile Include="CommentListItem.cs" />
+    <Compile Include="Comment\CommentCreate.cs" />
+    <Compile Include="Comment\CommentListItem.cs" />
     <Compile Include="Like\LikeCreate.cs" />
     <Compile Include="Like\LikeListItem.cs" />
     <Compile Include="Post\PostCreate.cs" />
     <Compile Include="Post\PostListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reply\ReplyCreate.cs" />
+    <Compile Include="Reply\ReplyListItem.cs" />
     <Compile Include="User\UserCreate.cs" />
     <Compile Include="User\UserListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Comment\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
